@@ -53,7 +53,7 @@ def search_youtube(api_key, query, max_results=5):
     url = "https://www.googleapis.com/youtube/v3/search"
     params = {
         "part": "snippet",
-        "q": query,
+        "q": query, 
         "maxResults": max_results,
         "type": "video",
         "key": api_key
