@@ -19,7 +19,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
-
+ 
 """# 動画情報取得のための関数"""
 
 def get_channel_videos(api_key, channel_id, max_results=10):
